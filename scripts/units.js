@@ -126,7 +126,8 @@ document.addEventListener("DOMContentLoaded", function() {
                 removeMoodleLink(moodleLink);
             } else {
                 // Open the link in a new tab for left and right clicks
-                window.open(moodleLink, "_blank");
+                //window.open(moodleLink, "_blank");
+                window.location.href = moodleLink;
             }
         });
 
